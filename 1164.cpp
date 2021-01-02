@@ -4,8 +4,8 @@ using namespace std;
 int main()
 {
     int n,i,j;
-    cin>>n;
-    int X[n],sum=0;
+    cin >> n;
+    int X[n], sum = 0;
 
     for(i=0; i<n; i++)
     {
@@ -19,13 +19,13 @@ int main()
             }
         }
 
-        if(sum==X[i])
+        if(sum == X[i])
         {
-            cout<<X[i]<<" eh perfeito\n";
+            cout << X[i] << " eh perfeito\n";
         }
         else
         {
-            cout<<X[i]<<" nao eh perfeito\n";
+            cout << X[i] << " nao eh perfeito\n";
         }
 
         sum=0;
